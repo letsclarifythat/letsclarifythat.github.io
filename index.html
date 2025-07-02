@@ -4,25 +4,29 @@
   <meta charset="UTF-8" />
   <title>Let's Clarify That!</title>
   
-  <!-- Google Font: PT Serif -->
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
-
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+    
+    body {
       background-color: #33343F;
       color: #ffffff;
       font-family: 'PT Serif', serif;
+      height: 100vh;
     }
 
     .container {
       display: flex;
       height: 100vh;
+      width: 100%;
     }
 
     .text-section {
-      flex: 3; /* 60% */
+      flex: 60%;
       padding: 60px;
       box-sizing: border-box;
       display: flex;
@@ -31,8 +35,8 @@
     }
 
     .image-section {
-      flex: 2; /* 40% */
-      background-image: url('your-photo.jpg'); /* Replace this with your image path */
+      flex: 40%;
+     
       background-size: cover;
       background-position: center;
     }
@@ -47,7 +51,7 @@
     h2 {
       font-size: 32px;
       font-weight: bold;
-      text-align: center;
+      text-align: left;
       margin-top: 0;
       margin-bottom: 30px;
     }
@@ -55,7 +59,7 @@
     h3 {
       font-size: 24px;
       font-weight: bold;
-      text-align: left;
+      text-align: center;
       margin-top: 40px;
       margin-bottom: 15px;
     }
@@ -65,6 +69,20 @@
       text-align: justify;
       line-height: 1.6;
     }
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .text-section,
+      .image-section {
+        width: 100%;
+        height: auto;
+      }
+
+      .image-section {
+        height: 300px;
+      }
   </style>
 </head>  
 <body>
