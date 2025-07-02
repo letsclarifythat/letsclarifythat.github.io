@@ -3,31 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <title>Let's Clarify That!</title>
+  
+  <!-- Google Font: PT Serif -->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
     body {
-      background-color: #434459;
+      margin: 0;
+      padding: 0;
+      background-color: #33343F;
       color: #ffffff;
-      font-family: 'Libertinus Math', Georgia, serif;
-      text-align: center;
-      margin: 60px;
-      margin-bottom: 80px;
+      font-family: 'PT Serif', serif;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .text-section {
+      flex: 3; /* 60% */
+      padding: 60px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .image-section {
+      flex: 2; /* 40% */
+      background-image: url('your-photo.jpg'); /* Replace this with your image path */
+      background-size: cover;
+      background-position: center;
     }
 
     h1 {
       font-size: 50px;
-      margin-bottom: 10px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
     }
 
     h2 {
-      font-size: 26px;
-      font-style: italic;
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
       margin-top: 0;
       margin-bottom: 30px;
     }
 
+    h3 {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: left;
+      margin-top: 40px;
+      margin-bottom: 15px;
+    }
+
     p {
       font-size: 18px;
-      margin-top: 40px;
+      text-align: justify;
       line-height: 1.6;
     }
   </style>
