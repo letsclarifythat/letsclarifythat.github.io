@@ -1,0 +1,73 @@
+<!-- Contact -->
+<section id="contact">
+	<div class="inner">
+		<section>
+			<form action="https://formspree.io/{{ site.email }}" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Let's connect" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form>
+		</section>
+		<section class="split">
+			<section style="text-align:center;">
+                    <div style="font-size: 1.1em;">
+                    <p>
+                        I launched Let's Clarify That in 2023 as a platform to showcase my efforts at simplifying biology.<br>
+						Bridging the gap between complex biology concepts and the general audience has always been a passion of mine.
+						I use  analogies, infographics, and illustrations to deliver.<br><br>
+
+                        Let's Clarify That features science articles on general biology and health, either published elsewhere or self-published as blog posts. You can explore the site and my social pages to get a glimpse of my work.<br><br>
+						
+						I am open to collaborations—be it content creation, outreach, or creative projects.<br>
+						If our interests align, feel free to get in touch.<br>
+              
+                    </p>
+          </section>
+    </div>
+</section>
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+  {% for key_value in site.socials %}
+    {% if key_value[1] %}
+      <li>
+        {% if key_value[0] == "Google-Scholar" %}
+          <a href="{{ key_value[1] }}" class="icon alt fa-graduation-cap" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+            <span class="label">Google Scholar</span>
+          </a>
+        {% else %}
+          <a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
+            <span class="label">{{ key_value[0] }}</span>
+          </a>
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
+	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
+	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>

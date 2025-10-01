@@ -1,0 +1,44 @@
+# site settings
+title: Let's Clarify That!
+subtitle: 
+email: clarityonscience@gmail.com
+description: Simplifying Biology, One Post at a Time.
+baseurl: "/letsclarifythat" # the subpath of your site, e.g. /blog
+url: "https://letsclarifythat.github.io"
+author: Smruthi Gokuldas Prabhu
+street_address: 
+city: 
+state: 
+zip_code: 
+country: 
+phone: 
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: 
+  GitLab:
+  Google-Scholar: "https://scholar.google.com/citations?user=CQqi5HQAAAAJ&hl=en"
+  Instagram: "https://www.instagram.com/scroll_through_science"
+  LinkedIn: "https://www.linkedin.com/in/smruthigprabhu/"
+  Twitter: 
+  YouTube: "https://www.youtube.com/@LetsClarifyThat"
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
