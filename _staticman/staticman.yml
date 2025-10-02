@@ -1,0 +1,14 @@
+comments:
+  allowedFields: ['name', 'email', 'message']
+  requiredFields: ['name', 'message']
+  branch: main
+  commitMessage: "New comment by {fields.name}"
+  path: "_data/comments/{fields.slug}"
+  filename: "comment-{timestamp}"
+  format: "json"
+  moderation: true
+  generatedFields:
+    date:
+      type: "date"
+      options:
+        format: "iso8601"
