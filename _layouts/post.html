@@ -24,36 +24,82 @@
 		</header>
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 		{{ content }}
-	</div>
+	
+	<!-- Share -->
+
+			<h3 style="font-size: 1.3rem; margin-bottom: 1rem;">
+    					Sharing is Caring </h3>
+  <ul style="display: flex; gap: 1rem; flex-wrap: wrap; list-style: none; padding: 0; margin: 0;">
+
+    <!-- Facebook -->
+	<li>
+ 	 <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" class="icon alt fa-facebook" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook" style="font-size: 1.2rem; color: #2e3450;"></a>
+	</li>
+	
+  <!-- X (Twitter) -->
+  	<li>
+  <a href="https://x.com/intent/tweet?url={{ page.url | absolute_url }}&text={{ page.title }}"
+     class="icon alt fa-times" target="_blank" rel="noopener noreferrer"
+     aria-label="Share on X" style="font-size: 1.2rem; color: #2e3450;">
+    <span class="label">X</span>
+  </a>
+</li>
+
+    <!-- LinkedIn -->
+    <li>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{ page.title }}" class="icon alt fa-linkedin" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn" style="font-size: 1.2rem; color: #2e3450;"></a>
+    </li>
+
+    <!-- Email -->
+    <li>
+      <a href="mailto:?subject={{ page.title }}&body=Check out this post: {{ page.url | absolute_url }}" class="icon alt fa-envelope" target="_blank" rel="noopener noreferrer" aria-label="Share via Email" style="font-size: 1.2rem; color: #2e3450;"></a>
+    </li>
+
+  </ul>
+
+</div>
 </section>
 
 </div>
 
-    <!-- Footer -->
-	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-  {% for key_value in site.socials %}
-    {% if key_value[1] %}
-      <li>
-        {% if key_value[0] == "Google-Scholar" %}
-          <a href="{{ key_value[1] }}" class="icon alt fa-graduation-cap" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
-            <span class="label">Google Scholar</span>
-          </a>
-        {% else %}
-          <a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-            <span class="label">{{ key_value[0] }}</span>
-          </a>
-        {% endif %}
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
-		</div>
-	</footer>
 
+<div class="comment-section">
+<h3 class="comment-heading">Leave a Comment</h3>
+<form method="POST" action="https://comments-6nu0.onrender.com/v3/entry/github/letsclarifythat/letsclarifythat.github.io/main/comments">
+  <input type="hidden" name="options[slug]" value="{{ page.slug }}">
+  <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" name="fields[name]" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Comment:</label>
+      <textarea name="fields[message]" rows="5" required></textarea>
+    </div>
+  <div class="form-group">
+      <button type="submit">Submit Comment</button>
+    </div>
+  </form>
 </div>
 
+{% assign comments = site.data.comments[page.slug] %}
+{% if comments %}
+  <h3>Comments</h3>
+  <ul>
+    {% for comment in comments %}
+      <li>
+        <p><strong>{{ comment.name }}</strong> on {{ comment.date }}</p>
+        <p>{{ comment.message }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p></p>
+{% endif %}
+
+
+    <!-- Footer -->
+	
 <!-- Scripts -->
 	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>

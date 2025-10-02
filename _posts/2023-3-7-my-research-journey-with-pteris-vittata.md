@@ -21,7 +21,7 @@ image: assets/images/pic01.jpg
 8) <a href="#section 8">Improving the Convenience of <i>Pteris vittata</i> as a Biosorbent</a>
 <h2 id="section 1">What is Phytoremediation?</h2>
 <p>I pursued my research on the phytoremediation of heavy metal-contaminated water. A lot of mumbo-jumbo words there? Let me simplify the terms; phytoremediation is the decontamination of a polluted source using living plants.
-<p>Heavy metals are toxic to any living organism beyond a particular concentration. You may wonder, I just said that plants are used to decontaminate a source. Hence, doesn't a plant, a living organism, get affected by the toxicity of heavy metals? Well, they are. However, some plants can tolerate higher heavy metal concentrations and are found growing with ease in such contaminated areas like it's no big deal. Let us refer to such plants as 'Super-plants'.</p>
+<p>Heavy metals are toxic to any living organism beyond a particular concentration. You may wonder, I just said that plants are used to decontaminate a source. Hence, doesn't a plant, a living organism, get affected by the toxicity of heavy metals? Well, they are. However, some plants can tolerate higher heavy metal concentrations and are found growing with ease in such contaminated areas like it's no big deal. Let us refer to such plants as 'super-plants'.</p>
 <h2 id="section 2">My Engagement with a 'Super-Plant'</h2>
 <p>I chose to work with such a plant. However, the super-plant I selected wasn't any regular angiosperm (flowering plant) but a pteridophyte. Pteridophyte, what is that? You might have heard about ferns. Yes, those ornamental leaves in bouquets.</p>
 <p>Non-flowering pteridophytes are the most primitive, well-developed plants that have withstood the test of time. Hence, terrestrial and aquatic ferns can endure various stresses, including high concentrations of heavy metals.</p> 
@@ -33,7 +33,7 @@ image: assets/images/pic01.jpg
 </figure>
 
 <h2 id="section 3">The Superpower Called <i>Pteris vittata</i></h2>
-<p>It's a Chinese brake... a Ladder brake... also called a Brake fern... YES! It's the 'Super metal absorbing fern' <i>Pteris vittata</i> L.</p>
+<p>It's a Chinese Brake... a Ladder Brake... also called a Brake fern... YES! It's the 'super metal absorbing fern' <i>Pteris vittata</i> L.</p>
 <p>The lush green treasure and its superpower were undiscovered until the beginning of the 21<sup>st</sup> century. It was first discovered by Lena Q. Ma and her teammates in 2001, growing abundantly on an abandoned site where wood preservation using chromated copper arsenate was carried out. <a href="https://www.nature.com/articles/35054664.pdf">Read the original report here</a>. 
 <p>When no other plant species in that region could grow in the soil, this super-plant grew to tolerate 1,442–7,526 p.p.m. of toxic arsenic. Due to this finding, this treasure was more worthwhile than anticipated and turned out to be a super-plant. Thus, the world was introduced to the super metal-hyperaccumulating plant.</p>
 <h2 id="section 4">What Makes <i>Pteris vittata</i> the Best for Phytoremediation?</h2>
@@ -43,11 +43,11 @@ image: assets/images/pic01.jpg
 <p>At this point, the super-plant might sound like an unstoppable alien that is taking over. However, it faces a different fate. A fate where the farmers conveniently destroy the super plants to make way for commercial crops.</p>
 <h2 id="section 5">Utilising <i>Pteris vittata</i> for Water Decontamination</h2> 
 <p>In spite of the known superpowers, the super-plant is losing researchers' attention in the field of phytoremediation. To alter the destiny of the super plant, I, along with my mentors, set out to up-scale the super-plant.</p> 
-<p>The researchers gave it a new 'Avatar,' a biosorbent. So, what is a biosorbent? A biosorbent is a non-living biological material with an '<b>Ad</b>sorption' capacity. I have formatted the 'Ad' of adsorption to bold to highlight the principle. Adsorption involves binding an atom, ion or molecule via various bonds or forces of attraction to a surface.</p> 
-<p>With the new Avatar, the super-plant biosorbent was to decontaminate polluted water by adsorbing the pollutants, heavy metals, on them.</p>
+<p>The researchers gave it a new 'avatar', a biosorbent. So, what is a biosorbent? A biosorbent is a non-living biological material with an '<b>ad</b>sorption' capacity. I have formatted the 'ad' of adsorption to bold to highlight the principle. Adsorption involves binding an atom, ion or molecule via various bonds or forces of attraction to a surface.</p> 
+<p>With the new avatar, the super-plant biosorbent was to decontaminate polluted water by adsorbing the pollutants, heavy metals, on them.</p>
 <h2 id="section 6">Transforming <i>Pteris vittata</i> into an Efficient Biosorbent</h2>
 <p>The excessive availability of the weedy super-plant growing on compound walls, courtyards, tiles, and buildings was another reason for the desperate need to find an additional application, as people feared its capacity to destroy man-made structures. While the people received free clean-up services, the research team got the super-plant with water decontamination power.</p> 
-<p>Plant foliate (leaf of the ferns) was collected, separated and washed thoroughly to remove the extraneous, dried, and then powdered. The powder obtained is the biosorbent, the new Avatar of the super-plant, <i>Pteris vittata</i>.</p> 
+<p>Plant foliate (leaf of the ferns) was collected, separated and washed thoroughly to remove the extraneous, dried, and then powdered. The powder obtained is the biosorbent, the new avatar of the super-plant, <i>Pteris vittata</i>.</p> 
 <h2 id="section 7">Experiments to Determine Biosorbent Effectiveness</h2>
 <p>The researchers conducted several experiments to standardise the best operating conditions, including the operating pH and temperature of the polluted water, the time required, the concentration of metals, the particle size of the super-plant biosorbent and the amount of biosorbent for a maximum metal uptake.</p>
 <p>These experiments aimed to determine if the super-plant biosorbent was as effective as when living. With just 1 gram of the super-plant biosorbent in a litre of single-metal contaminated water, the super-plant removed 126.58 mg of Pb(II), 31.06 mg of Cd(II) and 166.67 mg of Cr(VI)!</p> 
@@ -56,7 +56,7 @@ image: assets/images/pic01.jpg
 <p>The researchers further explored the easy handling of the biosorbent, and pelleting the super-plant biosorbent was a more acceptable option. Though the path ahead was challenging, the researchers successfully pelletised the super-plant biosorbent.</p>
 <p>The trick lay in finding the suitable particle size of the powder, the right binder, the right binder consistency, and the correct binder-to-powder ratio. Stable 'magic pellets' were obtained with the standardisation of the pelleting process. 
 With the stable 'magic' pellets, the researchers used them to decontaminate heavy metal-laden water. The superpower of the plant was still retained even in its pellet form.</p>
-<p>The researchers aim to improve metal-laden groundwater's potability by adding the pellets into the water. The investigations have exposed a marvel in the non-living form of the super-plant. As planned, the researchers have altered the destiny of the super-plant. The superpowers of this 'ladder' plant have reached new heights in its ability to decontaminate water!</p>
+<p>The researchers aim to improve metal-laden groundwater's potability by adding the pellets into the water. The investigations have exposed a marvel in the non-living form of the super-plant. As planned, the researchers have altered the destiny of the super-plant. The superpowers of this plant have reached new heights in its ability to decontaminate water!</p>
 <p>What are your thoughts on using plants for environmental remediation? Share your opinions in the comments below!</p>
 
 <b>TOP READER COMMENTS</b><br>
