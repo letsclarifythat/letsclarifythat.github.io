@@ -3,8 +3,8 @@ title: Let's Clarify That!
 subtitle: 
 email: clarityonscience@gmail.com
 description: Simplifying Biology, One Post at a Time.
-baseurl: "/letsclarifythat" # the subpath of your site, e.g. /blog
-url: "https://letsclarifythat.github.io"
+baseurl: ""
+url: "https://letsclarifythat.blog"
 author: Smruthi Gokuldas Prabhu
 street_address: 
 city: 
