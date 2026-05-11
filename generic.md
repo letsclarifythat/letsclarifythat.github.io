@@ -43,16 +43,16 @@ nav-menu: true
 	
 	<section>
 		<a class="image">
-			<img src="{% link assets/images/The-Hindu.png %}" alt="Snapshot of news article" data-position="top center" />
+			<img src="{% link assets/images/Article.jpg %}" alt="Green Olympia classic typewriter" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
 					<h3>The Hindu Newspaper</h3>
 				</header>
-				<p>How mouthwash affects nutrient absorption, one rinse at a time, is a short feature that connects the use of antimicrobial mouthwash to oral and gut microbiota disruption causing impaired nutrient absorption.</p>
+				<p>As an independent science writer, I write short features on health topics that demand readers’ immediate attention.</p>
 				<ul class="actions">
-					<li><a href="https://www.thehindu.com/sci-tech/health/how-mouthwash-affects-nutrient-absorption-one-rinse-at-a-time/article69864613.ece" class="button" target="_blank" rel="noopener">Read more</a></li>
+					<li><a href="{{ site.baseurl }}/publications/The Hindu/" class="button" target="_blank" rel="noopener">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
