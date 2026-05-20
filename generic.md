@@ -43,7 +43,7 @@ nav-menu: true
 	
 	<section>
 		<a class="image">
-			
+		<img src="{% link assets/images/Article.jpg %}" alt="Green Olympia classic typewriter" data-position="top center" />	
 		</a>
 		<div class="content">
 			<div class="inner">
