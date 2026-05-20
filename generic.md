@@ -5,7 +5,7 @@ permalink: /published/
 description: Articles featured across various platforms.
 meta_description: "Access easily digestible articles on trending biology and healthcare topics published across trusted platforms after a thorough review process."
 keywords: "healthcare, healthcare articles, portfolio" 
-image: assets/images/Featured.jpg
+image: /assets/images/Featured.jpg
 nav-menu: true
 ---
 <!-- Main -->
