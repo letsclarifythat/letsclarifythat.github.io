@@ -52,7 +52,7 @@ nav-menu: true
 				</header>
 				<p>As an independent science writer, I write short features on health topics that demand readers’ immediate attention.</p>
 				<ul class="actions">
-					<li><a href="{{ site.baseurl }}/publications/The Hindu/" class="button" target="_blank" rel="noopener">Learn more</a></li>
+					<li><a href="{{ site.baseurl }}/publications/the-hindu/" class="button" target="_blank" rel="noopener">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
