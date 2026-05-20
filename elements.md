@@ -5,6 +5,7 @@ permalink: /about/
 meta_description: "Discover Smruthi Gokuldas Prabhu’s academic credentials, professional achievements, science communication contributions, published articles, and her interests."
 keywords: "author, science communicator, bio"
 image: assets/images/About.jpg
+show_tile: true
 nav-menu: true
 ---
 
