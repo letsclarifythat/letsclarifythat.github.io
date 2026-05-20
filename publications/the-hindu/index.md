@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Articles with The Hindu
-permalink: /publications/The Hindu/
+permalink: /publications/the-hindu/
 meta_description: "Access easily digestible articles on evolving healthcare topics published The Hindu newspaper"
 keywords: "healthcare, healthcare articles, portfolio"
 show_tile: false
