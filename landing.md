@@ -20,7 +20,7 @@ nav-menu: true
 			<header class="major">
 				<h2>Simplifying Biology, One Post at a Time!</h2>
 			</header>
-			<p>Let's Clarify was launched in 2023 as a platform to share information in an engaging style. As someone who loves to write and illustrate, I’ve explored topics that sparked my curiosity. The articles have reached readers around the world, many of whom have responded with kind and thoughtful comments.</p>
+			<p>Let's Clarify That was launched in 2023 as a platform to share information in an engaging style. As someone who loves to write and illustrate, I’ve explored topics that sparked my curiosity. The articles have reached readers around the world, many of whom have responded with kind and thoughtful comments.</p>
 		</div>
 	</div>
 </section>
@@ -39,7 +39,7 @@ nav-menu: true
 				</header>
 				<p>This article explores muscle repair, muscle fibrosis, and physiotherapy through a narrative. With a personal touch, it reinforces the importance of good ergonomics for maintaining muscle health.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="{{ site.baseurl }}/post/why-workspace-ergonomics-are-important/" class="button">Read more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -56,7 +56,7 @@ nav-menu: true
 				</header>
 				<p>How does extra weight accumulate proportionally on both sides of our body? Learn about the symmetry in fat distribution in this article.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="{{ site.baseurl }}/post/how-is-body-fat-symmetrically-distributed-in-the-human-body/" class="button">Read more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -73,7 +73,7 @@ nav-menu: true
 				</header>
 				<p>Learn how naturally pigmented cotton offers a sustainable solution to textile and agricultural pollution.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="{{ site.baseurl }}/post/pigmented-cotton-eco-friendly-sustainable-solution/" class="button">Read more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -90,7 +90,7 @@ nav-menu: true
 				</header>
 				<p>What are microbial bioplastics? Can they replace conventional plastics and provide a sustainable solution?</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="{{ site.baseurl }}/post/microbial-bioplastics-a-reality-yet/" class="button">Read more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -107,7 +107,7 @@ nav-menu: true
 				</header>
 				<p>The science behind the changing colours and shedding leaves determines why only temperate climates have 'autumn' and not tropical climates.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="{{ site.baseurl }}/post/the-autumn-that-wasn-t-the-changing-colours-of-the-deciduous/" class="button">Read more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -124,7 +124,7 @@ nav-menu: true
 				</header>
 				<p>Can you imagine a world without colours? Uncover how animals develop vibrant patterns and hues, essential for survival and adaptation.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="{{ site.baseurl }}/post/how-genes-determine-coat-colours-and-patterns/" class="button">Read more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -141,7 +141,7 @@ nav-menu: true
 				</header>
 				<p>Have you ever seen those reels on Instagram with cats going high on catnip? Now, know the hows and whys.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="{{ site.baseurl }}/post/the-rolling-cats-what-really-happens-when-felines-meet-catnip/" class="button">Read more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -158,7 +158,7 @@ nav-menu: true
 				</header>
 				<p>This narrative explains how the immune system defends us from harmful pathogens like the influenza virus, keeping us protected and healthy.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="{{ site.baseurl }}/post/immune-system-stops-influenza-reinfection/" class="button">Read more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -166,7 +166,7 @@ nav-menu: true
 	
 	<section>
 		<a class="image">
-			<img src="{% link assets/images/Pteris-vittata-L.jpg %}" alt="" style="width:100%; height:100%; object-fit:cover; object-position:center;" />
+			<img src="{% link assets/images/Pteris-vittata-L.jpg %}" alt="Fern" style="width:100%; height:100%; object-fit:cover; object-position:center;" />
 		</a>
 		<div class="content">
 			<div class="inner">
