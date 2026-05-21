@@ -125,7 +125,9 @@
   /* No background color here to preserve theme styling */
 }
 
-.tiles article .image {
+.tiles article .image img {
 	display: block !important;
+	opacity: 1 !important;
+	visibility: visible !important;
 }
 
