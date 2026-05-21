@@ -67,7 +67,7 @@
 <h3 class="comment-heading">Leave a Comment</h3>
 <form method="POST" action="https://comments-6nu0.onrender.com/v3/entry/github/letsclarifythat/letsclarifythat.github.io/main/comments">
   {% assign slug = page.url | slugify %}
-<input type="hidden" name="options[slug]" value="{{ slug }}">
+<input type="hidden" name="fields[slug]" value="{{ slug }}">
   <div class="form-group">
       <label for="name">Name:</label>
       <input type="text" name="fields[name]" required>
