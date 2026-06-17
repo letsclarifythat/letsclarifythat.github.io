@@ -57,7 +57,6 @@ show_tile: false
 			</div>
 		</div>
 	</section>
-	</section>
 	
 <section>
 		<a class="image">
