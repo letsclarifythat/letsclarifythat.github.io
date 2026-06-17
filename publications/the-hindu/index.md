@@ -59,3 +59,21 @@ show_tile: false
 	</section>
 	</section>
 	
+<section>
+		<a class="image">
+			<img src="{% link assets/images/The-Hindu (3).png %}" alt="Snapshot of news article" style="object-fit:cover; object-position:top center;" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Why lullabies work: the science behind music for sleep</h3>
+				</header>
+				<p>This short feature explores the science behind music's influence on sleep—neurological, physiological, and psychological effects. The piece also highlights the often-overlooked role of our microscopic 'helpers' in the gut in sleep. With a brief on the gut–brain axis, the article explains how music modulates the gut microbiome, thereby improving sleep.</p>
+				<ul class="actions">
+					<li><a href="https://www.thehindu.com/sci-tech/health/why-lullabies-work-the-science-behind-music-for-sleep/article71069514.ece" class="button" target="_blank" 
+       rel="noopener">Read more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	</section>
